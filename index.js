@@ -17,7 +17,7 @@ const lookupMap = locations.features.reduce((map, feature) => {
 
 
 function kRingResults(h3IndexInicial) {
-  const lookupIndexes = kRingIndexes(h3IndexInicial);
+  const lookupIndexes = GetRaidusForSearching(h3IndexInicial);
   // Find all points of interest in the k-ring
   // console.log(lookupIndexes);
   return lookupIndexes.reduce((output, h3Index) => [...output, ...(lookupMap[h3Index] || [])], []);
@@ -30,7 +30,7 @@ function GetRaidusForSearching(h3IndexInicial, pad = 0) {
   return h3.kRing(h3IndexInicial, radius);
 }
 
-// const result = kRingResults(h3IndexInicial)
+const result = kRingResults(h3IndexInicial)
 console.log(result)
 
 
