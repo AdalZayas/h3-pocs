@@ -1,0 +1,81 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "libano, costa oro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.46704459190367,
+          25.836185576609907
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "benito america"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.46945321559906,
+          25.83774507840567
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "escuelita"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.47159361839294,
+          25.832564363141593
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "oxxo cantinflas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.46351480484009,
+          25.84669129675592
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "atras de casa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.46615409851074,
+          25.83230363149564
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.48306274414062,
+          25.841921351954845
+        ]
+      }
+    }
+  ]
+}
