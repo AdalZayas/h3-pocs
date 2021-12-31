@@ -26,7 +26,7 @@ function kRingResults(h3IndexInicial) {
 function GetRaidusForSearching(h3IndexInicial, pad = 0) {
   // Transform the radius from km to grid distance
   // //const radius = Math.floor(searchRadiusInKm / (h3.edgeLength(resolution, h3.UNITS.km) * 2)) + pad;
-  const radius = Math.floor(1 / (h3.edgeLength(res, h3.UNITS.km) * 2)) + pad;
+  const radius = Math.floor(1 / (h3.edgeLength(res, h3.UNIST.km) * 2)) + pad;
   return h3.kRing(h3IndexInicial, radius);
 }
 
